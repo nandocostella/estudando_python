@@ -48,3 +48,32 @@ print(palavras)
 junta = ' '.join(palavras)
 print(junta)
 
+
+nome = ("Alice")
+idade = 25
+altura = 1.65522
+
+# usando o "f" antes da string significa que posso passar algumas variáveis dentro da strint usando as chaves
+mensagem = f"Olá, meu nome é {nome}. Tenho {idade} anos e minha altura é {altura:.2f} metros" # ".2f": usado para limitar a 2 caracteres
+print(mensagem)
+
+
+# Formatar pra maiúscula e minúscula no texto
+texto2 = "Olá o mundo"
+texto_upper = texto2.upper()
+print(texto_upper)
+
+texto_lower = texto2.lower()
+print(texto_lower)
+
+# deixa apenas a primeira letra do texto em maiúscula
+texto_capitalize = texto2.capitalize()
+print(texto_capitalize)
+
+# conta as ocorrências de uma letra ou termo
+ocorrencia = texto2.count("o")
+print(ocorrencia)
+
+
+substitui_texto = texto2.replace("mundo", "amigo")
+print(substitui_texto)
