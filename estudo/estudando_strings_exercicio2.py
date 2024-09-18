@@ -12,8 +12,8 @@ print(palavra)
 
 # converte a frase em letras maiúsculas
 frase_maiuscula = frase.upper()
-print(frase_maiuscula)
+print("Frase em maiúscula:", frase_maiuscula)
 
 # Substitui a palavra Poderosa pela palavra Incrível
 frase_substituida = frase.replace("poderosa", "incrível")
-print(frase_substituida)
+print("Frase com substituição: ", frase_substituida)
